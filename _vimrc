@@ -1,3 +1,4 @@
+
 let mapleader=" "
 let g:netrw_banner=0
 let g:ale_enabled=0
@@ -12,6 +13,7 @@ nnoremap  <leader>v <C-v>
 nnoremap  <leader>t :tab term<CR>
 nnoremap  <leader>r :Run<CR>
 nnoremap  <leader>w <C-w>w
+nnoremap <leader>d :tag <C-r><C-w><CR>
 
 set number
 set relativenumber
